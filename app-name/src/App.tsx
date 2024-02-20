@@ -1,16 +1,14 @@
-
-import './App.css'
+import "./App.css";
 
 function App() {
-
-
   return (
     <>
-<video src="assets/images/movie.mov"></video>
-<img src="assets/images/gif.gif" alt="" />
-
+      <div>
+        <h1>hello</h1>
+      </div>
+      <img src="/images/Gif.gif" alt="" className="hero"/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
