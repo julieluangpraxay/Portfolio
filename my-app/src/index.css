@@ -1,0 +1,25 @@
+* {
+  color: white;
+}
+
+
+body {
+  background-color: rgb(22, 22, 22);
+}
+
+.hero {
+  width: 75%;
+}
+
+h1, h3 {
+  font-family: Pixelify Sans, sans-serif;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}

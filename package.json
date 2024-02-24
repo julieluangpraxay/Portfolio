@@ -4,6 +4,7 @@
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.57",
     "@types/react-dom": "^18.2.19",
+    "react-reveal": "^1.2.2",
     "typescript": "^5.3.3"
   }
 }
