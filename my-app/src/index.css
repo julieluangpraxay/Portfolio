@@ -1,5 +1,11 @@
-* {
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+ * {
   color: white;
+  box-sizing: border-box;
 }
 
 
@@ -18,8 +24,3 @@ h1, h3 {
   text-align: center;
 }
 
-.top-section {
-  display: flex;
-  justify-content: center;
-  margin: 2rem;
-}
