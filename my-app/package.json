@@ -1,12 +1,13 @@
 {
-  "homepage": "julie.codes",
+  "homepage": "http://julieluangpraxay.github.io/Portfolio",
   "name": "app-name",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
