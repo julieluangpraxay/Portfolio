@@ -14,9 +14,8 @@ export default function Projects() {
               Darling Doll Cosmetics Eccomerce Website
             </div>
             <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
+              A full stack application for my small business. I used React,
+              TypeScript, PostgreSQL, AWS Beanstalk, Node, and Express.
             </p>
           </div>
           <div className="px-6 pt-4 pb-2">
