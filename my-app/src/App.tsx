@@ -1,4 +1,5 @@
 import "./App.css";
+import Experience from "./Components/Experience";
 import Projects from "./Components/Projects";
 
 import "./index.css";
@@ -13,9 +14,10 @@ function App() {
       <img
         src="/images/Gif.gif"
         alt=""
-        className="w-3/4 flex justify-center m-auto"
+        className="w-3/4 flex justify-center m-auto mb-20"
       />
       <Projects />
+      <Experience />
     </>
   );
 }

@@ -2,7 +2,7 @@ export default function Projects() {
   return (
     <>
       <h1 className="text-4xl p-12">Projects</h1>
-      <div className="w-full flex gap-5 flex-wrap justify-center">
+      <div className="w-full flex gap-5 flex-wrap justify-center p-8 mb-20">
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-400">
           <img
             className="w-full"
