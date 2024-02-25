@@ -1,23 +1,22 @@
 import "./App.css";
-import Experience from "./Components/Experience";
+import Hero from "./Components/Hero";
 import Projects from "./Components/Projects";
-
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./index.css";
+import Nav from "./Components/Nav";
+import ExperiencePage from "./Pages/ExperiencePage";
 
 function App() {
   return (
     <>
-      <div className="w-full flex flex-col items-center p-8">
-        <h1 className="text-5xl p-2">Julie Luangpraxay</h1>
-        <h3 className="text-xl p-2">Software Engineer</h3>
-      </div>
-      <img
-        src="/images/Gif.gif"
-        alt=""
-        className="w-3/4 flex justify-center m-auto mb-20"
-      />
-      <Projects />
-      <Experience />
+      <BrowserRouter>
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/experience" element={<ExperiencePage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
