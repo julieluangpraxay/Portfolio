@@ -1,6 +1,7 @@
 import "./App.css";
 import Projects from "./Components/Projects";
 import "./index.css";
+
 function App() {
   return (
     <>
