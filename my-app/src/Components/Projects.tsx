@@ -4,11 +4,7 @@ export default function Projects() {
       <h1 className="text-4xl p-12">Projects</h1>
       <div className="w-full flex gap-5 flex-wrap justify-center p-8 mb-20">
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-400">
-          <img
-            className="w-full"
-            src="/images/darlingdollwebsite.png"
-            alt="Sunset in the mountains"
-          />
+          <img className="w-full" src="/images/darlingdollwebsite.png" alt="" />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">
               Darling Doll Cosmetics Eccomerce Website

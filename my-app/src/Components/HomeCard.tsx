@@ -3,7 +3,7 @@ import Nav from "./Nav";
 export default function HomeCard() {
   return (
     <>
-      <div className="bg-pink-50 mt-20 border border-4 border-pink-300 flex justify-center flex-wrap p-4 w-2/5 rounded-3xl m-auto">
+      <div className="bg-pink-50 mt-20 border border-4 border-pink-300 flex justify-center flex-wrap p-4 w-1/2 rounded-3xl m-auto">
         <div>
           <h1 className="text-3xl p-2 bold">Julie Luangpraxay</h1>
           <h3 className="text-xl p-2 pb-20">Front-End Developer</h3>
