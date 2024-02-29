@@ -1,7 +1,8 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import HomeCard from "./HomeCard";
+
+import Nav from "./Nav";
 
 export default function Experience() {
   const images = [
@@ -27,9 +28,9 @@ export default function Experience() {
 
   return (
     <>
-      <HomeCard />
-      <div className="bg-pink-50 mt-20 border border-4 border-pink-300 flex justify-center flex-wrap p-4 w-1/2 rounded-3xl m-auto">
-        <div className="flex items-center justify-center">
+      <Nav />
+      <div className="bg-pink-50 mt-20 border border-4 border-pink-300 flex justify-center flex-wrap p-4 w-11/12 rounded-3xl m-auto bg-cover bg-center bg-cutebluebg min-h-screen overflow:auto">
+        <div className="m-auto">
           <div className="bg-white border-gray-300 w-96 border rounded-3xl mb-16">
             <header className="grid grid-cols-6 items-center p-3 border-b border-b-gray-300">
               <div>
@@ -153,7 +154,6 @@ export default function Experience() {
             </div>
           </div>
         </div>
-        {/* exp 2 */}
         <div className="flex items-center justify-center">
           <div className="bg-white border-gray-300 w-96 border rounded-3xl">
             <header className="grid grid-cols-6 items-center p-3 border-b border-b-gray-300">

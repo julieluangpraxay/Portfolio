@@ -1,3 +1,12 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+body {
+    background-image: url("images/cutebluebg.png");
+    background-repeat: repeat;
+    height:fit-content;  
+    background-attachment: scroll;
+    background-size: 70% auto;
+    background-position: top;
+  }
