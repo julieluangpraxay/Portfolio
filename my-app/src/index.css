@@ -14,3 +14,12 @@ h1, h3, a {
   font-weight: 400;
   text-align: center;
 }
+
+body {
+  background-image: url("images/cutebluebg.png");
+  background-repeat: repeat;
+  height:fit-content;  
+  background-attachment: scroll;
+  background-size: 70% auto;
+  background-position: top;
+}
