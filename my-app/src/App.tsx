@@ -1,7 +1,6 @@
 import "./App.css";
 import Projects from "./Components/Projects";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import "./index.css";
 import ExperiencePage from "./Pages/ExperiencePage";
 import HomeCard from "./Components/HomeCard";
 import AboutMe from "./Pages/AboutMe";
