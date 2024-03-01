@@ -7,11 +7,10 @@
   }
   
   
-h1, h3, a {
+h1, h3, a , p {
     font-family: Pixelify Sans, sans-serif;
     color: black;
     font-weight: 400;
-    text-align: center;
   }
 
 body {
