@@ -15,7 +15,6 @@ export default function Projects() {
 
         <div className="sm:w-full border border-4 border-pink-300 flex justify-center flex-wrap p-4 w-10/12 rounded m-auto">
           <Nav />
-          <h1 className="text-4xl p-12">Projects</h1>
           <div className="w-full flex gap-5 flex-wrap justify-center p-8 mb-20">
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-400">
               <img

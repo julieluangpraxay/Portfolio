@@ -15,6 +15,11 @@ export default function HomeCard() {
         </div>
         <div className="sm:w-full border border-4 border-pink-300 flex justify-center flex-wrap p-4 w-full rounded m-auto">
           <Nav />
+          <img
+            src="/images/pixelgif.gif"
+            alt=""
+            className="rounded-3xl w-3/4 mt-12"
+          />
           <div className="flex flex-col justify-center pt-8 items-center">
             <img
               src="/images/pfp.jpg"
@@ -26,11 +31,11 @@ export default function HomeCard() {
               <h3 className="text-xl p-2">Front-End Developer</h3>
             </div>
           </div>
-          <img
+          {/* <img
             src="/images/pixelgif.gif"
             alt=""
             className="rounded-3xl w-3/4"
-          />
+          /> */}
           <div className="w-full flex justify-between">
             <div className="p-8 flex flex-wrap gap-5">
               <a
