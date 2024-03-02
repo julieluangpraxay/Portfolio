@@ -14,7 +14,7 @@ h1, h3, a , p {
   }
 
 body {
-    background-image: url("./images/cutebluebg.png");
+    background-image: url("../images/cutebluebg.png");
     background-repeat: repeat;
     height: fit-content;  
     background-attachment: scroll;
