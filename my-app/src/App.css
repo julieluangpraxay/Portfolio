@@ -3,21 +3,25 @@
 @import 'tailwindcss/utilities';
 
 * {
-    box-sizing: border-box;
-  }
-  
-  
-h1, h3, a , p {
-    font-family: Pixelify Sans, sans-serif;
-    color: black;
-    font-weight: 400;
-  }
+  box-sizing: border-box;
+}
+
+
+h1,
+h3,
+a,
+p {
+  font-family: Pixelify Sans, sans-serif;
+  color: black;
+  font-weight: 400;
+}
 
 body {
-    background-image: url("../dist/images/cutebluebg.png");
-    background-repeat: repeat;
-    height: fit-content;  
-    background-attachment: scroll;
-    background-size: 70% auto;
-    background-position: top;
-  }
+  /* background-image: url("../dist/images/cutebluebg.png"); */
+  background-image: url("/images/cutebluebg.png");
+  background-repeat: repeat;
+  height: fit-content;
+  background-attachment: scroll;
+  background-size: 70% auto;
+  background-position: top;
+}

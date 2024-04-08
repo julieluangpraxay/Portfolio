@@ -4,12 +4,12 @@ export default function Nav() {
   return (
     <>
       <nav className="w-full">
-        <div className="flex w-full justify-center">
+        <div className="flex justify-center w-full">
           <Link to="/" className="inline-block mx-2">
             <div className="relative max-w-xs overflow-hidden">
               <img
                 src="/images/home.png"
-                className="sm:w-12 transition duration-300 ease-in-out hover:scale-110 w-14"
+                className="sm:w-12 transition duration-300 ease-in-out hover:scale-110 w-10"
                 alt=""
               />
               <h3 className="text-xs">home</h3>
@@ -19,7 +19,7 @@ export default function Nav() {
             <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
               <img
                 src="/images/work.png"
-                className="sm:w-12 transition duration-300 ease-in-out hover:scale-110 w-14"
+                className="sm:w-12 transition duration-300 ease-in-out hover:scale-110 w-10"
                 alt=""
               />
               <h3 className="text-xs">experience</h3>
@@ -29,7 +29,7 @@ export default function Nav() {
             <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
               <img
                 src="/images/folder.png"
-                className="sm:w-12 transition duration-300 ease-in-out hover:scale-110 w-14"
+                className="sm:w-12 transition duration-300 ease-in-out hover:scale-110 w-10"
                 alt=""
               />
               <h3 className="text-xs">projects</h3>
@@ -39,7 +39,7 @@ export default function Nav() {
             <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
               <img
                 src="/images/aboutme.png"
-                className="sm:w-12 transition duration-300 ease-in-out hover:scale-110 w-14"
+                className="sm:w-12 transition duration-300 ease-in-out hover:scale-110 w-10"
                 alt=""
               />
               <h3 className="text-xs">about me</h3>

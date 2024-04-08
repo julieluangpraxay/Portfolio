@@ -3,7 +3,9 @@ import Nav from "./Nav";
 export default function HomeCard() {
   return (
     <>
-      <div className="sm:w-3/4 lg:w-1/2 bg-pink-50 mt-20 border border-4 border-pink-400 flex justify-center flex-wrap p-4 w-10/12 rounded m-auto">
+
+
+      <div className="sm:w-3/4 lg:w-1/2 bg-pink-50 mt-24 border border-4 border-pink-400 flex justify-center flex-wrap p-4 w-10/12 rounded m-auto mb-10">
         <div className="sm:w-full border border-4 bg-white border-pink-300 flex justify-between flex-wrap w-full rounded m-auto p-1">
           <p className="text-xs sm:text-lg">https://www.julie.codes</p>
           <div className="relative w-3 h-6 mx-2">
@@ -18,13 +20,13 @@ export default function HomeCard() {
           <img
             src="/images/pixelgif.gif"
             alt=""
-            className="rounded-3xl w-3/4 mt-12"
+            className="rounded-3xl md:w-11/12 mt-12 w-full"
           />
           <div className="flex flex-col justify-center pt-8 items-center">
             <img
               src="/images/pfp.jpg"
-              alt=""
-              className="w-1/4 rounded-full border-pink-400 border-solid border-2 mb-4"
+              alt="julie profile image"
+              className="md:w-1/4 w-1/2 rounded-full border-pink-400 border-solid border-2 mb-4"
             />
             <div className="text-center p-8">
               <h1 className="text-3xl p-2 font-bold">Julie Luangpraxay</h1>
@@ -36,7 +38,7 @@ export default function HomeCard() {
             alt=""
             className="rounded-3xl w-3/4"
           /> */}
-          <div className="w-full flex justify-between">
+          <div className="w-full flex justify-center">
             <div className="p-8 flex flex-wrap gap-5">
               <a
                 href="https://www.linkedin.com/in/julieluangpraxay/"
