@@ -28,9 +28,9 @@ export default function Experience() {
 
   return (
     <>
-      <div className="sm:w-3/4 bg-pink-50 mt-20 border border-4 border-pink-400 flex justify-center flex-wrap p-4 w-10/12 rounded m-auto">
+      <div className="sm:w-3/4 bg-pink-50 mt-20 border border-4 border-pink-400 flex justify-center flex-wrap p-4 w-10/12 rounded m-auto mb-20">
         <div className="sm:w-full border border-4 bg-white border-pink-300 flex justify-between flex-wrap w-10/12 rounded m-auto p-1">
-          <p>https://www.julie.codes</p>
+          <h6>https://www.julie.codes</h6>
           <div className="relative w-3 h-6 mx-2">
             <div className="w-2 h-0.5 bg-white border border-black right-5 absolute p-2 top-0.5 m-0.5"></div>
             <div className="absolute inset-0 bg-black w-0.5 h-11/12 mx-auto rotate-45"></div>
@@ -40,21 +40,197 @@ export default function Experience() {
 
         <div className="sm:w-full border border-4 border-pink-300 flex justify-center flex-wrap p-4 w-10/12 rounded m-auto">
           <Nav />
-          <section className="bg-pink-50 dark:bg-gray-900">
-    <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Experience</h2>
-            <p className="mb-4">Eccomerce Business Owner</p>
-            <p>• Leveraged paid social and organic content marketing strategies on Shopify, contributing to revenue growth surpassing $103K+ while growing 70,000+ followers online
-• Customized existing themes on Shopify, meticulously integrating brand-specific elements and refining user experience components
-• Collaborated closely with freelancers and manufacturers overseas on product design and branding initiatives to uphold quality and brand consistency</p>
-        </div>
-        <div className="grid grid-cols-2 gap-4 mt-8">
-            <img className="w-full rounded-lg" src="/images/cyberbabepalette.png" alt="cyberbabe led eyeshadow palette image"/>
-            <img className="mt-4 w-full lg:mt-10 rounded-lg" src="/images/darling1.png" alt="office content 2"/>
-        </div>
-    </div>
-</section>
+          <h1 className="p-4">Timeline</h1>
+
+          <section className="bg-pink-50 dark:bg-gray-900 border-b border-solid border-pink-200">
+            <div className="gap-16 items-center py-4 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+              <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                <h3 className="mb-4">Client Solutions Engineer</h3>
+                <span className="font-semibold text-pink-400">
+                  Tangenta Inc.
+                </span>
+                <h3>Feb 2024 - Present </h3>
+                <ul>
+                  <li>
+                    Conducted engaging product demos online, effectively
+                    communicating features to boost client acquisition.
+                  </li>
+                  <li>
+                    Assist UI updates and fixes using TypeScript, React and
+                    Material-UI, enhancing website functionality and design.
+                  </li>
+                  <li>
+                    Trained AI chatbots with OpenAI, improving response accuracy
+                    and customer service efficiency.
+                  </li>
+                  <li>
+                    Updated website content in collaboration with marketing,
+                    aligning with SEO and brand strategy.
+                  </li>
+                  <li>
+                    Performed rigorous testing of code changes and AI
+                    instructions, ensuring optimal performance and quality.
+                  </li>
+                  <li>Conduct research on</li>
+                </ul>
+              </div>
+              <div className="grid grid-cols-2 gap-4 mt-8">
+                <img
+                  className="w-full rounded-lg"
+                  src="/images/softwaregirly.png"
+                  alt="cyberbabe led eyeshadow palette image"
+                />
+                <img
+                  className="mt-4 w-full lg:mt-10 rounded-lg"
+                  src="/images/demos.png"
+                  alt="office content 2"
+                />
+              </div>
+            </div>
+          </section>
+          <section className="bg-pink-50 dark:bg-gray-900 border-b border-solid border-pink-200">
+            <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+              <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                <h3 className="mb-4">Eccomerce Business Owner</h3>
+                <span className="font-semibold">
+                  CulinaryLab Cooking School
+                </span>
+                <ul>
+                  <li>
+                    Leveraged paid social and organic content marketing
+                    strategies on Shopify, contributing to revenue growth
+                    surpassing $103K+ while growing 70,000+ followers online
+                  </li>
+                  <li>
+                    Customized existing themes on Shopify, meticulously
+                    integrating brand-specific elements and refining user
+                    experience components
+                  </li>
+                  <li>
+                    Collaborated closely with freelancers and manufacturers
+                    overseas on product design and branding initiatives to
+                    uphold quality and brand consistency
+                  </li>
+                </ul>
+              </div>
+              <div className="grid grid-cols-2 gap-4 mt-8">
+                <img
+                  className="w-full rounded-lg"
+                  src="/images/cyberbabepalette.png"
+                  alt="cyberbabe led eyeshadow palette image"
+                />
+                <img
+                  className="mt-4 w-full lg:mt-10 rounded-lg"
+                  src="/images/darling1.png"
+                  alt="darling doll image"
+                />
+              </div>
+            </div>
+          </section>
+
+          <section className="bg-pink-50 dark:bg-gray-900 border-b border-solid border-pink-200">
+            <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+              <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                <h3 className="mb-4">Social Media Specialist</h3>
+                <div className="text-sm">
+                  <span className="font-semibold">
+                    CulinaryLab Cooking School
+                  </span>
+                  <ul>
+                    <li>
+                      Achieved exceptional growth of 494% on the TikTok account,
+                      expanding the following from 1.9K to 11.6K, and garnered
+                      significant brand exposure through a highly viewed video
+                      with over 1.8 million views
+                    </li>
+                    <li>
+                      Developed content calendars, effectively coordinating the
+                      scheduling and publication of content across multiple
+                      platforms using Hootsuite in a dynamic startup environment
+                    </li>
+                    <li>
+                      Collaborated seamlessly with my manager to execute
+                      projects with precision and exemplified a track record of
+                      consistently meeting project deadlines
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-4 mt-8">
+                <img
+                  className="w-full rounded-lg"
+                  src="/images/clab.jpg"
+                  alt="cyberbabe led eyeshadow palette image"
+                />
+                <img
+                  className="mt-4 w-full lg:mt-10 rounded-lg"
+                  src="/images/cookingschool.png"
+                  alt="culinarlab cooking school image"
+                />
+              </div>
+            </div>
+          </section>
+          <section className="bg-pink-50 dark:bg-gray-900 border-b border-solid border-pink-200">
+            <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+              <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                <h3 className="mb-4">Content Creator</h3>
+                <div className="text-sm">
+                  <span className="font-semibold">Self-Employed</span>
+                  <ul>
+                    <li>
+                      Leveraged multi-platform content creation skills to
+                      cultivate a dedicated following across Twitch, Instagram,
+                      and YouTube, amassing a total audience of over 78,000
+                      followers/subscribers
+                    </li>
+                    <li>
+                      Streamed FPS games on Twitch as a partner, engaging with a
+                      community of 17,000 followers and participating in Twitch
+                      Rivals events to showcase gaming prowess and entertain
+                      viewers
+                    </li>
+                    <li>
+                      Curated visually stunning content on Instagram, showcasing
+                      fashion and lifestyle content to an audience of 50,000
+                      followers, while collaborating with fashion brands and
+                      lifestyle products to create sponsored content and
+                      promotional campaigns
+                    </li>
+                    <li>
+                      Produced and edited videos on Final Cut Pro for a YouTube
+                      channel with 11,000 subscribers, crafting engaging vlogs,
+                      fashion hauls, and style guides to captivate audiences and
+                      drive subscriber growth
+                    </li>
+                    <li>
+                      Established partnerships with various brands, negotiating
+                      terms and contracts to produce sponsored content across
+                      platforms, ensuring alignment with personal brand values
+                      and audience interests
+                    </li>
+                    <li>
+                      Maintained professionalism and delivered high-quality
+                      content while meeting brand objectives and deadlines,
+                      resulting in successful collaborations and continued
+                      audience engagement
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-4 mt-8">
+                <img
+                  className="w-full rounded-lg"
+                  src="/images/contentcreator.jpg"
+                  alt="instagram feed"
+                />
+                <img
+                  className="mt-4 w-full lg:mt-10 rounded-lg"
+                  src="/images/pubg.jpg"
+                  alt="twitch stream joolie"
+                />
+              </div>
+            </div>
+          </section>
           {/* <div className="m-auto">
             <div className="bg-white border-gray-300 w-96 border rounded-3xl mb-16 mt-12">
               <header className="grid grid-cols-6 items-center p-3 border-b border-b-gray-300">
@@ -312,12 +488,10 @@ export default function Experience() {
                   {" "}
                   Feb 2022 - Apr 2023
                 </div> */}
-                
-
-              {/* </div>
+          {/* </div>
             </div> */}
-          </div>
         </div>
-       </>
+      </div>
+    </>
   );
 }

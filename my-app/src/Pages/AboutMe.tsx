@@ -15,40 +15,35 @@ export default function AboutMe() {
 
         <div className="sm:w-full border border-4 border-pink-300 flex justify-center flex-wrap p-4 w-10/12 rounded m-auto">
           <Nav />
-          <div className="sm:w-full w-1/2 m-auto p-8">
+          <img
+            src="/images/softwaregirly.png"
+            alt=""
+            className="w-1/2 flex justify-center p-10"
+          />
+          <div className="sm:w-full w-1/2 m-auto">
             <p>
-              Welcome to my corner of the internet! I'm a multifaceted
-              professional with a vibrant tapestry of experiences that range
-              from digital content creation and live streaming on Twitch, to
-              pioneering my own makeup brand that has brought smiles to
-              countless faces online. My adventurous spirit and creative
-              endeavors have recently steered me towards the fascinating world
-              of software engineering.
-              <p>
-                My journey into tech was ignited by a curiosity for the
-                mechanisms that power our online experiences. Motivated by the
-                remarkable talent in the tech industry, I took the leap into
-                software development through a comprehensive coding bootcamp.
-                This adventure has not only expanded my skill set but also
-                fueled my passion for continuous learning and personal growth.
-                When I'm not immersed in coding, you can find me exploring
-                virtual worlds in PC games. Whether it's the adrenaline rush of
-                FPS games or the tranquil pleasure of simulation games, I'm
-                always on the lookout for my next favorite title. Currently,
-                Overwatch 2 and Palworld top my list of must-plays.
-              </p>
-              <p>
-                But my interests don't stop at gaming; I have a profound love
-                for culinary exploration and fashion, constantly drawing
-                inspiration from the world around me. As I look to the future, I
-                dream of embracing the hustle and bustle of New York City life,
-                imagining a quaint apartment that boasts an inspiring view of
-                the skyline. This city's vibrant energy and endless
-                possibilities resonate with my aspirations and zest for life.
-                Thank you for visiting my site. Whether you're here to explore
-                my professional portfolio, share in my gaming adventures, or
-                just passing through, I'm glad you're here.
-              </p>
+              Welcome! I'm a versatile professional with diverse experiences
+              spanning digital content creation, live streaming on Twitch, and
+              even venturing into the beauty industry with my own makeup brand.
+              Recently, I've embarked on an exciting journey into software
+              engineering. My fascination with the inner workings of our digital
+              world sparked my interest in tech. Inspired by the talent in the
+              industry, I dove into software development through a rigorous
+              coding bootcamp. This journey has not only broadened my skill set
+              but also fueled my passion for continuous learning and growth.
+            </p>
+            <p>
+              When I'm not coding, you'll often find me exploring virtual realms
+              in PC games. Whether it's the thrill of FPS games or the
+              tranquility of simulation games, I'm always on the lookout for my
+              next gaming adventure. Currently, Overwatch 2 and Palworld are at
+              the top of my list.
+            </p>
+            <p>
+              Beyond gaming, I have a deep appreciation for culinary exploration
+              and fashion, drawing inspiration from the world around me. Looking
+              ahead, I envision embracing the dynamic lifestyle of New York
+              City, with its vibrant energy and endless opportunities.
             </p>
           </div>
         </div>
