@@ -5,26 +5,26 @@ import "slick-carousel/slick/slick-theme.css";
 import Nav from "./Nav";
 
 export default function Experience() {
-  const images = [
-    "/images/cyberbabepalette.png",
-    "/images/darling1.png",
-    "/images/home3.png",
-  ];
+  // const images = [
+  //   "/images/cyberbabepalette.png",
+  //   "/images/darling1.png",
+  //   "/images/home3.png",
+  // ];
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    swipeToSlide: true,
-  };
+  // const settings = {
+  //   dots: false,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   swipeToSlide: true,
+  // };
 
-  const images2 = [
-    "/images/package.jpg",
-    "/images/Gif.gif",
-    "/images/home3.png",
-  ];
+  // const images2 = [
+  //   "/images/package.jpg",
+  //   "/images/Gif.gif",
+  //   "/images/home3.png",
+  // ];
 
   return (
     <>
@@ -318,7 +318,6 @@ export default function Experience() {
             </div> */}
           </div>
         </div>
-   
-    </>
+       </>
   );
 }
