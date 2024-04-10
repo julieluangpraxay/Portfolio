@@ -17,7 +17,7 @@ export default function Projects() {
         <div className="sm:w-full border border-4 border-pink-300 flex justify-center flex-wrap p-2 w-11/12 rounded m-auto">
           <Nav />
           <div className="w-full flex gap-5 flex-wrap justify-center sm:p-8 p-2 lg:p-2 mb-20">
-            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-200">
+            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-200 mt-10">
               <a
                 href="http://darling-doll-cosmetics-dev.us-west-1.elasticbeanstalk.com/"
                 className="hover:bg-sky-200 text-xs"
@@ -51,7 +51,7 @@ export default function Projects() {
                 </div>
               </a>
             </div>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-200">
+            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-200 mt-10">
               <a
                 href="https://julieluangpraxay.github.io/valorant-collections/"
                 className="hover:bg-sky-200 text-xs"
@@ -85,7 +85,7 @@ export default function Projects() {
                 </div>
               </a>
             </div>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-200">
+            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-200 mt-10">
               <a
                 href="https://julie.codes/"
                 className="hover:bg-sky-200 text-xs"

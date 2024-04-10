@@ -22,17 +22,18 @@ export default function AboutMePage() {
               className="w-full flex justify-center pt-4 p-8"
             />
           </div>
-          <div className="sm:w-1/2 w-full m-auto pt-4 line-height">
+          <div className="sm:w-1/2 w-full m-auto pt-4 line-height bg-white rounded p-4">
             <p className="line-height">
-              Welcome! I'm a versatile professional with diverse experiences
-              spanning digital content creation, live streaming on Twitch, and
-              even venturing into the beauty industry with my own makeup brand.
-              Recently, I've embarked on an exciting journey into software
-              engineering. My fascination with the inner workings of our digital
-              world sparked my interest in tech. Inspired by the talent in the
-              industry, I dove into software development through a rigorous
-              coding bootcamp. This journey has not only broadened my skill set
-              but also fueled my passion for continuous learning and growth.
+              Hi, My name is Julie! I'm a versatile professional with diverse
+              experiences spanning digital content creation, live streaming on
+              Twitch, and even venturing into the beauty industry with my own
+              makeup brand. Recently, I've embarked on an exciting journey into
+              software engineering. My fascination with the inner workings of
+              our digital world sparked my interest in tech. Inspired by the
+              talent in the industry, I dove into software development through a
+              rigorous coding bootcamp. This journey has not only broadened my
+              skill set but also fueled my passion for continuous learning and
+              growth.
             </p>
             <p>
               When I'm not coding, you'll often find me exploring virtual realms
