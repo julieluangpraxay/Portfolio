@@ -29,7 +29,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="w-full flex justify-center">
-            <div className="p-8 flex flex-wrap gap-5">
+            <div className="p-4 flex gap-2">
               <a
                 href="https://www.linkedin.com/in/julieluangpraxay/"
                 target="_blank"
@@ -71,6 +71,20 @@ export default function Contact() {
                     alt=""
                   />
                   <h3>TikTok</h3>
+                </div>
+              </a>
+              <a
+                href="https://www.youtube.com/joolie"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                  <img
+                    src="/images/YouTube.png"
+                    className="max-w-xs transition duration-300 ease-in-out hover:scale-110 w-16"
+                    alt=""
+                  />
+                  <h3>YouTube</h3>
                 </div>
               </a>
             </div>

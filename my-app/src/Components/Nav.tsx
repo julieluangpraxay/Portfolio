@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <>
       <nav className="w-full bg-pink-200 rounded">
-        <div className="sm:flex sm:flex-wrap flex justify-center w-full">
+        <div className="flex flex-wrap justify-center w-full">
           <Link to="/" className="inline-block mx-2">
             <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat text-center">
               <img

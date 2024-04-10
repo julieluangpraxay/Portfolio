@@ -3,9 +3,9 @@ import Nav from "../Components/Nav";
 export default function AboutMePage() {
   return (
     <>
-      <div className="sm:w-3/4 bg-pink-50 mt-20 border border-4 border-pink-400 flex justify-center flex-wrap p-4 w-10/12 rounded m-auto">
+      <div className="sm:w-3/4 bg-pink-50 mt-20 border border-4 border-pink-400 flex justify-center flex-wrap w-10/12 pt-4 rounded m-auto">
         <div className="sm:w-full border border-4 bg-white border-pink-300 flex justify-between flex-wrap w-10/12 rounded m-auto p-1">
-          <h6>https://www.julie.codes</h6>
+          <h6 className="small-text">https://www.julie.codes</h6>
           <div className="relative w-3 h-6 mx-2">
             <div className="w-2 h-0.5 bg-white border border-black right-5 absolute p-2 top-0.5 m-0.5"></div>
             <div className="absolute inset-0 bg-black w-0.5 h-11/12 mx-auto rotate-45"></div>
@@ -15,13 +15,15 @@ export default function AboutMePage() {
 
         <div className="sm:w-full border border-4 border-pink-300 flex justify-center flex-wrap p-4 w-10/12 rounded m-auto">
           <Nav />
-          <img
-            src="/images/softwaregirly.png"
-            alt=""
-            className="w-1/2 flex justify-center p-10"
-          />
-          <div className="sm:w-full w-1/2 m-auto">
-            <p>
+          <div className="md:w-1/2 w-full">
+            <img
+              src="/images/softwaregirly.png"
+              alt="anime girl on computer"
+              className="w-full flex justify-center pt-4 p-8"
+            />
+          </div>
+          <div className="sm:w-1/2 w-full m-auto pt-4 line-height">
+            <p className="line-height">
               Welcome! I'm a versatile professional with diverse experiences
               spanning digital content creation, live streaming on Twitch, and
               even venturing into the beauty industry with my own makeup brand.

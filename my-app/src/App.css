@@ -45,5 +45,18 @@ h1 {
 }
 
 html {
-  cursor: url('../public/images/cursorwand.png'), auto;
+  cursor: url('/images/cursorwand.png'), auto;
+}
+
+@media (max-width: 430px) {
+  .small-text {
+    font-size: 12px; 
+    display: flex;
+    align-items: center;
+  }
+}
+
+.line-height {
+  line-height: 20px;
+
 }
