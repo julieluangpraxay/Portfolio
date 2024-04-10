@@ -44,11 +44,17 @@ export default function Experience() {
 
           <section className="bg-pink-50 dark:bg-gray-900 border-b border-solid border-pink-200">
             <div className="gap-16 items-center py-4 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-              <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+              <div className="font-light text-gray-500 dark:text-gray-400">
                 <h3 className="mb-4">Client Solutions Engineer</h3>
-                <span className="font-semibold text-pink-400">
+
+                <a
+                  href="
+                  https://tangenta.net/"
+                  className="font-semibold text-pink-400"
+                >
                   Tangenta Inc.
-                </span>
+                </a>
+
                 <h3>Feb 2024 - Present </h3>
                 <ul>
                   <li>
@@ -90,7 +96,7 @@ export default function Experience() {
           </section>
           <section className="bg-pink-50 dark:bg-gray-900 border-b border-solid border-pink-200">
             <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-              <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+              <div className="font-light text-gray-500 dark:text-gray-400">
                 <h3 className="mb-4">Eccomerce Business Owner</h3>
                 <span className="font-semibold">
                   CulinaryLab Cooking School
