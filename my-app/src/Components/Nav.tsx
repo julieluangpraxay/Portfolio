@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <>
       <nav className="w-full bg-pink-200 rounded">
-        <div className="flex justify-center w-full">
+        <div className="sm:flex sm:flex-wrap flex justify-center w-full">
           <Link to="/" className="inline-block mx-2">
             <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat text-center">
               <img
@@ -43,6 +43,16 @@ export default function Nav() {
                 alt=""
               />
               <h3 className="text-xs">about me</h3>
+            </div>
+          </Link>
+          <Link to="/contact" className="inline-block mx-2">
+            <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat text-center">
+              <img
+                src="/images/Mail(1).png"
+                className="sm:w-12 transition duration-300 ease-in-out hover:scale-110 w-10"
+                alt=""
+              />
+              <h3 className="text-xs">contact</h3>
             </div>
           </Link>
         </div>

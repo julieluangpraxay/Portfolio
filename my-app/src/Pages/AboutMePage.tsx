@@ -1,6 +1,6 @@
 import Nav from "../Components/Nav";
 
-export default function AboutMe() {
+export default function AboutMePage() {
   return (
     <>
       <div className="sm:w-3/4 bg-pink-50 mt-20 border border-4 border-pink-400 flex justify-center flex-wrap p-4 w-10/12 rounded m-auto">

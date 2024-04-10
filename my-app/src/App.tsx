@@ -3,7 +3,9 @@ import Projects from "./Components/Projects";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import ExperiencePage from "./Pages/ExperiencePage";
 import HomeCard from "./Components/HomeCard";
-import AboutMe from "./Pages/AboutMe";
+
+import ContactPage from "./Pages/ContactPage";
+import AboutMePage from "./Pages/AboutMePage";
 
 function App() {
   return (
@@ -13,7 +15,8 @@ function App() {
           <Route path="/" element={<HomeCard />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<ExperiencePage />} />
-          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/aboutme" element={<AboutMePage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -1,6 +1,6 @@
 import Nav from "./Nav";
 
-export default function HomeCard() {
+export default function Contact() {
   return (
     <>
       <div className="sm:w-full lg:w-1/2 bg-pink-50 mt-24 border border-4 border-pink-400 flex justify-center flex-wrap p-4 w-11/12 rounded m-auto mb-10">
@@ -13,13 +13,10 @@ export default function HomeCard() {
             <div className="absolute inset-0 bg-black w-0.5 h-11/12 mx-auto -rotate-45"></div>
           </div>
         </div>
+
         <div className="sm:w-full border border-4 border-pink-300 flex justify-center flex-wrap p-4 w-full rounded m-auto">
           <Nav />
-          <img
-            src="/images/pixelgif.gif"
-            alt=""
-            className="rounded-3xl md:w-11/12 mt-12 w-full"
-          />
+
           <div className="flex flex-col justify-center pt-8 items-center">
             <img
               src="/images/pfp.jpg"
@@ -27,17 +24,8 @@ export default function HomeCard() {
               className="md:w-1/4 w-1/2 rounded-full border-pink-400 border-solid border-2 mb-4"
             />
             <div className="text-center p-2">
-              <h1 className="text-3xl p-2 font-bold">Julie Luangpraxay</h1>
-              <h3 className="text-xl p-4">Front-End Developer</h3>
-              <div className="bg-white rounded">
-                <h4 className="text-left p-4">
-                  After establishing multiple small businesses in my past,
-                  honing my marketing expertise on social media for over a
-                  decade, acheived Twitch Partner, and founding my own makeup
-                  brand generating over 6 figures, I am now leveraging my
-                  diverse skill set to pursue software development.
-                </h4>
-              </div>
+              <h1 className="text-3xl p-2 font-bold">CONTACT</h1>
+              <h3 className="text-xl p-4">Email: julieluangpraxay@gmail.com</h3>
             </div>
           </div>
           <div className="w-full flex justify-center">

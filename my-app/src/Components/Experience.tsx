@@ -45,7 +45,7 @@ export default function Experience() {
           <section className="bg-pink-50 dark:bg-gray-900 border-b border-solid border-pink-200">
             <div className="gap-16 items-center py-4 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
               <div className="font-light text-gray-500 dark:text-gray-400">
-                <h3 className="mb-4">Client Solutions Engineer</h3>
+                <h3>Client Solutions Engineer / Remote</h3>
 
                 <a
                   href="
@@ -77,7 +77,6 @@ export default function Experience() {
                     Performed rigorous testing of code changes and AI
                     instructions, ensuring optimal performance and quality.
                   </li>
-                  <li>Conduct research on</li>
                 </ul>
               </div>
               <div className="grid grid-cols-2 gap-4 mt-8">
@@ -97,15 +96,20 @@ export default function Experience() {
           <section className="bg-pink-50 dark:bg-gray-900 border-b border-solid border-pink-200">
             <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
               <div className="font-light text-gray-500 dark:text-gray-400">
-                <h3 className="mb-4">Eccomerce Business Owner</h3>
-                <span className="font-semibold">
-                  CulinaryLab Cooking School
-                </span>
+                <h3>Eccomerce Business Owner / Part-Time</h3>
+                <a
+                  href="
+                  https://darlingdollcosmetics.com/"
+                  className="font-semibold text-pink-400"
+                >
+                  Darling Doll Cosmetics
+                </a>
+                <h3>Oct 2020 - Present </h3>
                 <ul>
                   <li>
                     Leveraged paid social and organic content marketing
                     strategies on Shopify, contributing to revenue growth
-                    surpassing $103K+ while growing 70,000+ followers online
+                    surpassing $104K+ while growing 70,000+ followers online
                   </li>
                   <li>
                     Customized existing themes on Shopify, meticulously
@@ -137,11 +141,16 @@ export default function Experience() {
           <section className="bg-pink-50 dark:bg-gray-900 border-b border-solid border-pink-200">
             <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
               <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                <h3 className="mb-4">Social Media Specialist</h3>
+                <h3>Social Media Specialist / Hybrid</h3>
                 <div className="text-sm">
-                  <span className="font-semibold">
+                  <a
+                    href="
+                    https://culinarylabschool.com/"
+                    className="font-semibold text-pink-400"
+                  >
                     CulinaryLab Cooking School
-                  </span>
+                  </a>
+                  <h3>Feb 2022 - Apr 2023</h3>
                   <ul>
                     <li>
                       Achieved exceptional growth of 494% on the TikTok account,
@@ -179,9 +188,12 @@ export default function Experience() {
           <section className="bg-pink-50 dark:bg-gray-900 border-b border-solid border-pink-200">
             <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
               <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                <h3 className="mb-4">Content Creator</h3>
+                <h3>Content Creator</h3>
                 <div className="text-sm">
-                  <span className="font-semibold">Self-Employed</span>
+                  <span className="font-semibold text-pink-400">
+                    Self-Employed / Part-Time
+                    <h3>Aug 2014 - Present </h3>
+                  </span>
                   <ul>
                     <li>
                       Leveraged multi-platform content creation skills to
@@ -237,6 +249,7 @@ export default function Experience() {
               </div>
             </div>
           </section>
+
           {/* <div className="m-auto">
             <div className="bg-white border-gray-300 w-96 border rounded-3xl mb-16 mt-12">
               <header className="grid grid-cols-6 items-center p-3 border-b border-b-gray-300">
