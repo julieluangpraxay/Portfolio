@@ -96,7 +96,7 @@ export default function Experience() {
           <section className="bg-pink-50 dark:bg-gray-900 border-b border-solid border-pink-200">
             <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
               <div className="font-light text-gray-500 dark:text-gray-400">
-                <h3>Eccomerce Business Owner / Part-Time</h3>
+                <h3>Ecommerce Business Owner / Part-Time</h3>
                 <a
                   href="
                   https://darlingdollcosmetics.com/"
