@@ -101,7 +101,7 @@ export default function Projects() {
                     Portfolio Website
                   </div>
                   <p className="text-gray-700 text-base">
-                    My portfolio website showcasing my experince, skills, and
+                    My portfolio website showcasing my experience, skills, and
                     projects. Created with React, TypeScript, and Tailwind CSS.
                   </p>
                 </div>
